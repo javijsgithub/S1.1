@@ -188,3 +188,69 @@ body {
     }       
     
 }
+
+/*moviles*/
+
+@media screen and (max-width: 600px) {
+   
+    .caja-contenido-header-1 {
+       display: block;
+       margin-bottom: 25px;              
+    }
+    .contenido-1 {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .contenido-2 {
+        width: 100%;
+        margin-top: 25px;
+    }
+    .contenido-3 {
+        width: 100%;
+        margin-top: 25px;
+    }   
+
+    .caja-medio-g {
+        width: 86%;
+        margin: auto;
+        margin-bottom: 25px;
+        display: block;       
+    }
+    .medio-g-1 {
+        background-color: aqua;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .medio-g-2 {
+        background-color: aqua;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .medio-g-3 {
+        background-color: aqua;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .medio-g-4 {
+        background-color: aqua;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .medio-g-5 {
+        background-color: aquamarine;
+        width: 100%;
+        margin: auto;
+    }
+    .caja-medio-p {
+        background-color: coral;
+        width: 85%;
+        margin: auto;
+        margin-top: 25px;
+    }
+    .medio-p-1  {
+        background-color: lightsalmon;
+    } 
+    .medio-p-2  {
+        background-color: lightsalmon;
+    }    
+}
