@@ -5,7 +5,7 @@ body {
 
 .contenedor { 
     margin: auto;
-    background-color: white;
+    background-color: blue;
     max-width: 1200px;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -126,7 +126,8 @@ body {
 /*tablets*/
 
 @media screen and (max-width: 768px) {
-    .contenedor {  
+    .contenedor { 
+        background-color: blueviolet; 
         padding-top: 25px; 
         padding-bottom: 50px;     
     }
@@ -192,6 +193,10 @@ body {
 /*moviles*/
 
 @media screen and (max-width: 600px) {
+
+    .contenedor {
+        background-color: brown;
+    }
    
     .caja-contenido-header-1 {
        display: block;
